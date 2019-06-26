@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Basic Styling With CSS</title>
@@ -16,72 +17,78 @@
         <h1>Styled Student Bio</h1>
     </header>
 
-    <!-- Section 1: Bio -->
-    <section>
-        <h2>Melissa Gilman</h2>
-        <!-- Embedded Image -->
-        <img src="https://avatars3.githubusercontent.com/u/33108308?s=400&u=929959f13f0eb3779601773ef4a6552d7e0657de&v=4"
-            alt="Melissa">
+    <div class="container">
 
-        <!-- Paragraph with embedded link -->
-        <p>This was my second "project" for Coding Bootcamp. It used my previously made "<a
-                href="https://m-gilman.github.io/beginningHTML/" target="_blank">Student Bio</a>" HTML page.
-        </p>
-    </section>
+        <!-- Section 1: Bio -->
+        <section id="main-bio">
+            <h2>Melissa Gilman</h2>
+            <!-- Embedded Image -->
+            <img id="bio-image" src="https://avatars3.githubusercontent.com/u/33108308?s=400&u=929959f13f0eb3779601773ef4a6552d7e0657de&v=4"
+                alt="Melissa">
 
-    <!-- Section 2: Objectives of this Page -->
-    <section>
-        <h2>Objectives Of This Activity:</h2>
-        <ul>
-            <li>Create an external CSS Style Sheet and link it</li>
-            <li>Target specific tags using classes and id's</li>
-            <li>Change colors and font styles</li>
-            <li>Add padding and margin</li>
-            <li>Experiment with float</li>
-            <li>Set the width, height and line height</li>
-        </ul>
-    </section>
+            <!-- Paragraph with embedded link -->
+            <p>This was my second "project" for Coding Bootcamp. It used my previously made "<a
+                    href="https://m-gilman.github.io/beginningHTML/" target="_blank">Student Bio</a>" HTML page.
+                    <br>
+                    It was styled using an external CSS style sheet.
+            </p>
+        </section>
 
-    <!-- Section 3: Contact Info -->
-    <section>
+        <!-- Section 2: Objectives of this Page -->
+        <section id="objectives">
+            <h2>Objectives Of This Activity:</h2>
+            <ul>
+                <li>Create an external CSS Style Sheet and link it</li>
+                <li>Target specific tags using classes and id's</li>
+                <li>Change colors and font styles</li>
+                <li>Add padding and margin</li>
+                <li>Experiment with float</li>
+                <li>Set the width, height and line height</li>
+            </ul>
+        </section>
 
-        <h2>Contact Info:</h2>
+        <!-- Section 3: Contact Info -->
+        <section id="contact-info">
 
-        <!-- Unordered list -->
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:mydevdesign@gmail.com?Subject=I%20found%20your%20Bio%20Page"
-                    target="_top">Contact
-                    Me</a> </li>
-            <li><strong>Github:</strong> <a href="https://github.com/m-gilman" target="_blank">See What I'm up to</a>
-            </li>
-        </ul>
-    </section>
+            <h2>Contact Info:</h2>
 
-    <!-- Section 4: Bonus Table -->
-    <section>
-        <table>
-            <tr>
-                <th>Animal Name</th>
-                <th>Animal Class</th>
-            </tr>
-            <tr>
-                <td>Tiger</td>
-                <td>Mammal</td>
-            </tr>
-            <tr>
-                <td>Bald Eagle</td>
-                <td>Bird</td>
-            </tr>
-            <tr>
-                <td>Salmon</td>
-                <td>Fish</td>
-            </tr>
-            <tr>
-                <td>Alligator</td>
-                <td>Reptile</td>
-            </tr>
-        </table>
-    </section>
+            <!-- Unordered list -->
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:mydevdesign@gmail.com?Subject=I%20found%20your%20Bio%20Page"
+                        target="_top">Contact
+                        Me</a> </li>
+                <li><strong>Github:</strong> <a href="https://github.com/m-gilman" target="_blank">See What I'm up
+                        to</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 4: Bonus Table -->
+        <section id="table">
+            <table>
+                <tr>
+                    <th>Animal Name</th>
+                    <th>Animal Class</th>
+                </tr>
+                <tr>
+                    <td>Tiger</td>
+                    <td>Mammal</td>
+                </tr>
+                <tr>
+                    <td>Bald Eagle</td>
+                    <td>Bird</td>
+                </tr>
+                <tr>
+                    <td>Salmon</td>
+                    <td>Fish</td>
+                </tr>
+                <tr>
+                    <td>Alligator</td>
+                    <td>Reptile</td>
+                </tr>
+            </table>
+        </section>
+    </div>
 
 </body>
 
